@@ -41,4 +41,7 @@ Content-Type: application/json
 
 ###
 
+http://localhost:8080/get_drinks?drinkOrder=EDITED_DATE
+###
 http://localhost:8080/get_drinks?drinkOrder=EFFICIENCY
+###
