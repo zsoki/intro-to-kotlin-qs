@@ -1,0 +1,44 @@
+
+###
+
+http://localhost:8080/hello?name=Zoli
+
+###
+
+http://localhost:8080/hello_kotlin?name=Zoli
+
+###
+
+GET http://localhost:8080/greetings
+Content-Type: application/json
+
+{
+    "languageCode": "HU",
+    "name": "Zoli"
+}
+
+###
+
+GET http://localhost:8080/greetings_kotlin
+Content-Type: application/json
+
+{
+    "languageCode": "HU",
+    "name": "Zoli"
+}
+
+###
+
+POST http://localhost:8080/add_drink
+Content-Type: application/json
+
+{
+    "name": "Günzer Tamás villányi rozé",
+    "price": 1279,
+    "capacity": 0.75,
+    "percent": 11.5
+}
+
+###
+
+http://localhost:8080/get_drinks?drinkOrder=EFFICIENCY
